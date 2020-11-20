@@ -19,7 +19,7 @@ public class LagCamera : MonoBehaviour
     public bool usedFixedUpdate = true;
 
     private Transform target;
-    private Vector3 startOffset;
+    public Vector3 startOffset;
 
     private void Start()
     {
